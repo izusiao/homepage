@@ -1,0 +1,29 @@
+.home {
+    height: 100vh;
+    width: 100%;
+}
+.home .layer2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../img/bg.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    filter: blur(20px)
+}
+.home .layer1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    background: url("../img/bg.JPG");
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    box-shadow: 0 0 5px 5px rgba(255,255,255,.8)
+}
