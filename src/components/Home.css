@@ -1,8 +1,9 @@
-.home {
-    height: 100vh;
+.container {
+    min-height: 100vh;
     width: 100%;
+    position: relative;
 }
-.bg {
+.container .bg {
     background: url("../img/bg-new.JPG");
     background-attachment: fixed;
     background-position: center;
@@ -13,12 +14,16 @@
     top: 0;
     left: 0;
 }
-.home .content {
+.container .content {
     display: flex;
     width: 100%;
-    height: calc(100vh - 60px);
-    position: absolute;
-    bottom: 0;
+    padding-top: 60px;
+}
+.container h1 {
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(45, 67, 102);
 }
 /* .home .layer2 {
     width: 100%;

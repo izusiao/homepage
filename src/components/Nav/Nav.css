@@ -1,7 +1,8 @@
 .navbar {
     padding: 0;
-    background: rgba(45, 67, 102, .7);
+    background: rgb(45, 67, 102);
     width: 100%;
+    position: fixed;
 }
 .navbar-brand {
     margin-left: 20px;

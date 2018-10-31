@@ -4,6 +4,7 @@ import "./App.css";
 import Overlay from "./components/Overlay";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
+import Projects from "./components/Projects";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Home />
+        <Projects />
         {/* <Overlay /> */}
       </div>
     );

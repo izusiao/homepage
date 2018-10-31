@@ -3,7 +3,7 @@ import "./Home.css";
 import styled from "styled-components";
 
 const H1 = styled.h1`
-  color: white;
+  color: white !important;
   font-size: 5em;
   font-weight: 700;
   margin-left: auto;
@@ -16,12 +16,14 @@ const H1 = styled.h1`
 
 const Home = () => {
   return (
-    <div className="home bg">
+    <div className="container">
+    <div className="bg">
       {/* <div className="layer1">
         <H1>Portfolio</H1>
       </div>
       <div className="layer2" /> */}
       <div className="content"><H1>Portfolio</H1></div>
+      </div>
     </div>
   );
 };
