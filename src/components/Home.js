@@ -8,7 +8,8 @@ const H1 = styled.h1`
   font-weight: 700;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20%;
+  margin-top: 0 !important;
+  padding-top: .5em;
   @media only screen and (min-width: 768px) {
     font-size: 8em;
   }
@@ -16,7 +17,7 @@ const H1 = styled.h1`
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container" id="#">
     <div className="bg">
       {/* <div className="layer1">
         <H1>Portfolio</H1>

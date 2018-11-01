@@ -4,7 +4,7 @@ import './NavItem.css';
 const NavItem = props => {
   return (
     <li>
-      <a href="#">
+      <a href={props.href}>
         <span></span>
         <span></span>
         <span></span>

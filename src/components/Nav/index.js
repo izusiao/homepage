@@ -27,10 +27,10 @@ const Nav = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mx-auto">
-            <NavItem title="Home" />
-            <NavItem title="Projects" />
-            <NavItem title="About me" />
-            <NavItem title="Contact" />
+            <NavItem title="Home" href="#" />
+            <NavItem title="About me" href="#about" />
+            <NavItem title="Projects" href="#projects" />
+            <NavItem title="Contact" href="#contact" />
         </ul>
       </div>
     </nav>
