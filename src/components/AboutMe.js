@@ -6,15 +6,20 @@ import img from "../img/ozga-izabela.jpg";
 const Side = styled.div`
   align-self: stretch;
   background-color: ${props => (props.white ? "white" : "rgb(45, 67, 102)")};
-  padding-top: 60px;
+  padding-top: 40px;
   @media only screen and (min-width: 768px) {
-    flex: 0 1 50%;;
+    flex: 0 1 50%;
+    padding-top: 60px;
   }
 `;
 const Paragraph = styled.div`
   text-align: justify;
-  margin: 3em;
+  margin: 1em;
   font-size: 1.2em
+  @media only screen and (min-width: 768px) {
+    flex: 0 1 50%;
+    margin: 3em;
+  }
 `;
 
 const Img = styled.img`

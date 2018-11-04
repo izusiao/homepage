@@ -19,8 +19,14 @@
 .container .content {
     display: flex;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 40px;
     min-height: 100% !important;
+    
+}
+@media only screen and (min-width: 768px) {
+    .container .content {
+        padding-top: 60px;
+    }
 }
 .container h1 {
     font-weight: 700;

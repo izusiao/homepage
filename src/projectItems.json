@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Portfolio - version 1",
+    "src": "portfolio.jpg",
+    "description": "My first portfolio created in ReactJS"
+  },
+  {
+    "id": "2",
+    "title": "Astronomy with Izabelka",
+    "src": "astronomy.png",
+    "description": "Astronomy with Izabelka is my first project. I've started learning ReactJS on it. It's not yet finished and unresponsive, but it will be soon. I make it for myself and will put there everything (interested for me) about astronomy."
+  },
+  {
+    "id": "3",
+    "title": "My homepage",
+    "src": "myhomepage.png",
+    "description": "My homepage served me to create and test some Portfolio components. I'd like to finish it and make full responsive website about me and my experience."
+  }
+]
